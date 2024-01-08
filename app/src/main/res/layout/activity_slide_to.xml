@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Slide_To_Act"
+    android:background="@color/background">
+
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:outer_color="@color/kuning"
+        app:inner_color="@color/background"
+        android:layout_alignParentBottom="true"
+        app:text_size="15sp"
+        app:text="Slide For Confirm"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="B'Ticket"
+        android:textColor="@color/merah"
+        android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textwelcome"
+        android:text="enjoy using my application"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textwelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="create_account"
+        android:textSize="20dp"
+        android:id="@+id/createaccount"
+        android:background="@drawable/create"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createaccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="login"
+        android:id="@+id/btn_login"
+        android:textSize="20dp"
+        android:background="@drawable/login"
+        android:textColor="@color/merah"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:text="bagasputrapratama_2023"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/kuning"
+        />
+
+
+
+</RelativeLayout>

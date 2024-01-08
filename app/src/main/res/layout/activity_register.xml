@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gambar1"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gambar2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Register"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Come on, register before logging in"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edittext"
+            android:text="Enter Full Name"
+            android:textAlignment="center" />
+
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:text="Username/Email"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:text="Password"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:text="Confirm Password"
+            android:textAlignment="center" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="female"
+                android:layout_marginHorizontal="60dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:layout_marginHorizontal="60dp">
+
+            </RadioButton>
+
+        </RadioGroup>
+
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/regist"
+            android:text="REGISTER"
+            android:textAlignment="center"
+            android:textColor="@color/kuning"
+            android:id="@+id/btnregist"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have account?"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginHorizontal="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="13sp"
+            android:textColor="@color/merah"
+            android:layout_marginLeft="230sp"
+            android:id="@+id/logintext"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="3sp"
+        android:id="@+id/backbtn"/>
+
+
+</RelativeLayout>

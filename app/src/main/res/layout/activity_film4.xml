@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".film1">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/backbtn"
+                android:layout_width="40sp"
+                android:layout_height="30sp"
+                android:layout_marginLeft="5sp"
+                android:background="@drawable/baseline_arrow_back_24"
+                android:layout_marginBottom="30sp"/>
+
+            <TextView
+                android:id="@+id/textwelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B'Ticket"
+                android:textColor="@color/kuning"
+                android:textSize="30sp"
+                android:layout_marginLeft="110sp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:elevation="4dp"
+                android:layout_marginHorizontal="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/u13">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:text="PAMALI: DUSUN POCONG"
+                        android:layout_marginHorizontal="10sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:elevation="4dp"
+                android:layout_marginHorizontal="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/film4"
+                        android:scaleType="centerCrop">
+
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textStyle="bold"
+                            android:text="99 Minutes"
+                            android:layout_marginHorizontal="10sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textStyle="bold"
+                            android:text="2D"
+                            android:layout_marginHorizontal="10sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp">
+                        </TextView>
+
+                        <Button
+                            android:layout_width="150sp"
+                            android:layout_height="30sp"
+                            android:background="@drawable/regist"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="PLAYING AT"
+                            android:textColor="@color/kuning">
+
+                        </Button>
+
+                        <Button
+                            android:layout_width="150sp"
+                            android:layout_height="30sp"
+                            android:background="@drawable/regist"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="BUY TICKET"
+                            android:textColor="@color/kuning"
+                            android:id="@+id/buyticket">
+
+                        </Button>
+
+                        <Button
+                            android:layout_width="150sp"
+                            android:layout_height="30sp"
+                            android:background="@drawable/regist"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="TRAILER"
+                            android:textColor="@color/kuning">
+
+                        </Button>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="110dp"
+                android:layout_marginTop="10dp">
+
+            </RatingBar>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiga petugas medis dan dua penggali kubur ditugaskan untuk membantu sebuah dusun terpencil yang baru terkena wabah. Setibanya di sana, mereka mulai menyadari ada kemunculan Pocong di dusun tersebut. Apakah semua ini berkaitan dengan adat istiadat di dusun tersebut? Atau ada adat istiadat yang dilanggar oleh mereka?"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="20dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Producer:"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Andi Suryanto, Marcella Daryanani, Willy Suryanto"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Director:"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Bobby Prasetyo"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Writer:"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Evelyn Afnilia"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Cast:"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Fajar Nugra, Yasamin Jasem, Dea Panendra, Bukie B. Mansyur, Arla Ailani, Anantya Kirana"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Distributor:"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Lyto Pictures"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

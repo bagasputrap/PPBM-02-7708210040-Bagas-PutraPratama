@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kuning"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="365dp"
+        android:id="@+id/splash"
+        app:lottie_rawRes="@raw/splash"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginTop="60dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="265dp"
+        android:layout_below="@id/splash"
+        app:lottie_rawRes="@raw/welcome"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:id="@+id/welcome"/>
+
+
+
+
+
+</RelativeLayout>

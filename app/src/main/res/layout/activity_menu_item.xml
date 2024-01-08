@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5sp"
+        android:id="@+id/backbtn"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        android:scrollbars="vertical"
+        android:layout_marginTop="12dp"
+        tools:listitem="@layout/list_item"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"/>
+
+</LinearLayout>

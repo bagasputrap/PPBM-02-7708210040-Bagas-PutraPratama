@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <!--image view for displaying film1-->
+        <ImageView
+            android:id="@+id/idIVCourse"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/film2" />
+
+        <!--text view for displaying film name-->
+        <TextView
+            android:id="@+id/idTVCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/idIVCourse"
+            android:layout_toRightOf="@id/idIVCourse"
+            android:text="TO CATCH A KILLER "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--text view for displaying film duration-->
+        <TextView
+            android:id="@+id/idTVCourseDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVCourseName"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/idIVCourse"
+            android:layout_toRightOf="@id/idIVCourse"
+            android:text="Film Duration : 119 Minutes"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <!--button for dismissing our dialog-->
+        <Button
+            android:id="@+id/idBtnDismiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idIVCourse"
+            android:layout_margin="10dp"
+            android:text="Buy Ticket"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
